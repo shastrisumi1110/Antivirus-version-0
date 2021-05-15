@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">A</string>
+    <string name="antivirus">AntiVirus</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="already_registered_login_here">Already registered ? login here</string>
+    <string name="logout">logout</string>
+    <string name="otp_verification">OTP Verification</string>
+</resources>
