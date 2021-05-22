@@ -117,36 +117,6 @@
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"/>
-            <EditText
-                android:background="@drawable/backgroundbox"
-                android:id="@+id/inputotp5"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="4dp"
-                android:gravity="center"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"/>
-            <EditText
-                android:background="@drawable/backgroundbox"
-                android:id="@+id/inputotp6"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="4dp"
-                android:layout_width="40dp"
-                android:layout_height="46dp"
-                android:gravity="center"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"/>
 
         </LinearLayout>
 

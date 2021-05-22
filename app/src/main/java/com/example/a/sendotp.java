@@ -60,7 +60,6 @@ public class sendotp extends AppCompatActivity {
 
                                     @Override
                                     public void onCodeSent(@NonNull String backendotp, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
-                                        super.onCodeSent(backendotp, forceResendingToken);
                                         progressBar.setVisibility(View.GONE);
                                         getotpbtn.setVisibility(View.VISIBLE);
                                         Intent intent = new Intent(getApplicationContext(),verifyotp.class);
@@ -69,9 +68,9 @@ public class sendotp extends AppCompatActivity {
                                         startActivity(intent);
                                     }
                                 });
-//                         Intent intent = new Intent(getApplicationContext(),verifyotp.class);
-//                         intent.putExtra("mobile",enternumber.getText().toString());
-//                         startActivity(intent);
+                         Intent intent = new Intent(getApplicationContext(),verifyotp.class);
+                         intent.putExtra("mobile",enternumber.getText().toString());
+                         startActivity(intent);
                     }else{
                         Toast.makeText(sendotp.this, "Please enter correct number", Toast.LENGTH_SHORT).show();
                     }
